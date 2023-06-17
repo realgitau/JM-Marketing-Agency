@@ -552,7 +552,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
+  background-color: #000000;
   display: block;
   position: absolute;
   width: 30px;
@@ -566,7 +566,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
+  background-color: #ffa500;
   display: block;
   position: absolute;
   width: 30px;
@@ -613,11 +613,11 @@ Header Style
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #fff;
+  background-color: #ffa500;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-  background-color: #fff;
+  background-color: #ffa500;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -625,15 +625,15 @@ Header Style
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #fff;
+  background-color: #000000;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #fff;
+  background-color: #000000;
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fff;
+  color: #ffa500;
 }
 
 @media (max-width: 1200px) {
@@ -669,7 +669,7 @@ Header Style
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #000000!important;
+    color: #ffa500!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -715,7 +715,7 @@ Header Style
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #fff;
+    background: #000000;
     border-bottom: 1px solid #eee;
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -725,12 +725,12 @@ Header Style
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #f7f7f7 !important;
-    color: #191a20 !important;
+    background: #000000 !important;
+    color: #fff !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #000000!important;
+    color: #ffa500!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -755,7 +755,7 @@ Header Style
     height: auto;
   }
   .header-area .main-nav .nav li.has-sub:after {
-    color: #3B566E;
+    color: #000000;
     right: 30px;
     font-size: 14px;
     top: 15px;
@@ -1659,14 +1659,14 @@ Happy Steps Style
 }
 
 .happy-steps .steps {
-  background-color: rgba(250, 250, 250, 0.2);
+  background-color: rgba(0,0,0,0.99)
   padding: 30px;
   border-radius: 23px;
 }
 
 .happy-steps .steps .item {
   text-align: center;
-  border-right: 1px solid rgba(250, 250, 250, 0.2);
+  border-right: 1px solid rgba(0,0,0,0.99)
   margin-right: -15px;
 }
 
@@ -1945,7 +1945,7 @@ body {
     border-right: none;
     margin-bottom: 30px;
     padding-bottom: 30px;
-    border-bottom: 1px solid rgba(250, 250, 250, 0.2);;
+    border-bottom: 1px solid rgba(0,0,0,0.99);
   }
   .happy-steps .steps .last-item {
     border-bottom: none;
