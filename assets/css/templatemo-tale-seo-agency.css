@@ -826,17 +826,20 @@ Banner Style
 .main-banner {
   position: relative;
   padding: 295px 0px 185px 0px;
+  background-color: #7a7a7a;
+  border-radius: 1.2rem ;
+  letter-spacing: 0.25rem;
 }
 
-.main-banner:after {
-  content: url(../images/banner-right.png);
-  top: -1px;
-  right: 0;
+/* .main-banner:after {
+  content: url(../images/agency.jpg);
+  top: 120px;
+  right: 120px;
   position: absolute;
   width: 861px;
   height: 746px;
   z-index: -1;
-}
+} */
 
 .main-banner::before {
   content: url(../images/banner-left.png);
@@ -876,7 +879,7 @@ Banner Style
 }
 
 .main-banner h4 span {
-  color: #c03afe;
+  color: #ffa500;
 }
 
 .main-banner p {
@@ -1245,9 +1248,8 @@ Contact Style
 .contact-us-content .more-info {
   text-align: center;
   background: rgb(0,0,0);
-  /* background: linear-gradient(90deg, rgba(85,0,227,1) 0%, rgba(198,61,255,1) 100%); */
   border-radius: 0px 0px 23px 23px;
-  padding: 45px 30px 15px 30px;
+  padding: 45px ;
 }
 
 .contact-us-content .more-info .info-item {
@@ -1659,14 +1661,14 @@ Happy Steps Style
 }
 
 .happy-steps .steps {
-  background-color: rgba(0,0,0,0.99)
+  background-color: rgba(0,0,0,0.99);
   padding: 30px;
   border-radius: 23px;
 }
 
 .happy-steps .steps .item {
   text-align: center;
-  border-right: 1px solid rgba(0,0,0,0.99)
+  border-right: 1px solid rgba(0,0,0,0.99);
   margin-right: -15px;
 }
 
@@ -1831,7 +1833,9 @@ body {
     top: 0px;
   }
   .main-banner {
-    margin-top: 100px;
+    margin-top: 65px;
+    background-color: #afafaf;
+    border-radius: 1rem;
   }
   .header-area .main-nav .nav li:nth-child(4) {
     padding-right: 0px !important;
