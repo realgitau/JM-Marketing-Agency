@@ -826,20 +826,20 @@ Banner Style
 .main-banner {
   position: relative;
   padding: 295px 0px 185px 0px;
-  background-color: #7a7a7a;
+  /* background-color: #7a7a7a; */
   border-radius: 1.2rem ;
   letter-spacing: 0.25rem;
 }
 
-/* .main-banner:after {
-  content: url(../images/agency.jpg);
-  top: 120px;
-  right: 120px;
+.main-banner:after {
+  content: url(../images/social-media-5187243_1920-removebg-preview.png);
+  top: 300px;
+  right: -100px;
   position: absolute;
   width: 861px;
   height: 746px;
   z-index: -1;
-} */
+}
 
 .main-banner::before {
   content: url(../images/banner-left.png);
@@ -1341,7 +1341,7 @@ Page Heading Style
 }
 
 .page-heading h4 span {
-  color: #c03afe;
+  color: #ffa500;
 }
 
 .page-heading p {
@@ -1834,8 +1834,8 @@ body {
     top: 0px;
   }
   .main-banner {
-    margin-top: 65px;
-    background-color: #afafaf;
+    margin-top: 45px;
+    background-color: #000000;
     border-radius: 1rem;
   }
   .header-area .main-nav .nav li:nth-child(4) {
