@@ -1838,6 +1838,12 @@ body {
     background-color: #000000;
     border-radius: 1rem;
   }
+  .main-banner:after{
+    display: none;
+  }
+  .main-banner::before{
+    display: none;
+  }
   .header-area .main-nav .nav li:nth-child(4) {
     padding-right: 0px !important;
   }
