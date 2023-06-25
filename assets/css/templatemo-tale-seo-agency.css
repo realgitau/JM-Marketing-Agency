@@ -142,7 +142,7 @@ body {
   border-radius: 25px;
   font-weight: 400;
   text-transform: capitalize;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.25rem;
   transition: all .3s;
   position: relative;
   overflow: hidden;
@@ -163,7 +163,7 @@ body {
   border-radius: 25px;
   font-weight: 400;
   text-transform: capitalize;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.25rem;
   transition: all .3s;
   position: relative;
   overflow: hidden;
@@ -1300,7 +1300,7 @@ Page Heading Style
 
 .page-heading {
   padding: 120px 0px;
-  margin-top: 110px;
+  margin-top: 70px;
 }
 
 .page-heading::before {
@@ -1333,6 +1333,7 @@ Page Heading Style
   font-weight: 700;
   line-height: 70px;
   margin-bottom: 20px;
+  letter-spacing: 0.8rem;
 }
 
 .page-heading h4 em {
@@ -1357,6 +1358,7 @@ Page Heading Style
   display: inline-block;
   margin: 0px 10px 0px 10px;
   color: #7a7a7a;
+  letter-spacing: 0.25rem;
 }
 
 .page-heading .second-button {
