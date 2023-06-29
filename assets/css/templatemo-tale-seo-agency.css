@@ -1057,6 +1057,7 @@ Infos Style
   padding: 120px 0px;
   margin-top: 120px;
   border-radius: 2rem;
+  cursor: pointer;
 }
 
 .infos .main-content {
@@ -1599,6 +1600,7 @@ Happy Clients Style
   padding: 0px 20px;
   margin-right: 20px;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .happy-clients ul.nacc li .info span.last-span {
